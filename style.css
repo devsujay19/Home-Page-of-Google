@@ -1,0 +1,146 @@
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.gmail-link{
+  font-family: sans-serif;
+  text-decoration: none;
+  color: grey;
+  position: relative;
+  top: -55px;
+  left: 84vw;
+}
+.gmail-link:hover{
+  text-decoration: underline;
+}
+.images-link{
+  font-family: sans-serif;
+  text-decoration: none;
+  color: grey;
+  position: relative;
+  top: -55px;
+  left: 85vw;
+}
+.images-link:hover{
+  text-decoration: underline;
+}
+.google-apps-icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 7vh;
+  left: 86vw;
+  cursor: pointer;
+}
+.search-icon{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  left: -133px;
+  top: 188px;
+  z-index: 1;
+}
+.mic-icon{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 198px;
+  left: 290px;
+  z-index: 1;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.logo{
+  position: relative;
+  top: 130px;
+  left: 23vw;
+  height: 92px;
+  width: 272px;
+}
+.searchbar{
+  background-color: white;
+  border: none;
+  border-radius: calc(0.5*44px);
+  color: black;
+  font-family: sans-serif;
+  font-size: inherit;
+  height: 45px;
+  outline: 0;
+  text-indent: 5px;
+  -webkit-padding-end: 44px;
+  padding-inline-end: 44px;
+  -webkit-padding-start: 52px;
+  padding-inline-start: 52px;
+  position: relative;
+  width: 420px;
+  top: 155px;
+  left: 253px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+}
+.g_s-btn{
+  height: 35px;
+  width: 130px;
+  border: none;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+  font-size: 17px;
+  font-family: sans-serif;
+  position: relative;
+  top: 30vh;
+  left: 37vw;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.g_s-btn:hover{
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+.i_f_l-btn{
+  height: 35px;
+  width: 130px;
+  border: none;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+  font-size: 16px;
+  font-family: sans-serif;
+  position: relative;
+  top: 179px;
+  left: 38vw;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.i_f_l-btn:hover{
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+.customizeIcon-icon{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 408px;
+  left: 568px;
+  z-index: 1;
+  cursor: pointer;
+}
+.customizeIcon{
+  width: 185px;
+  height: 6vh;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+  text-indent: 25px;
+  position: relative;
+  top: 68vh;
+  left: 52vw;
+  border: none;
+  border-radius: 50px;
+  font-weight: 400;
+  background-color: white;
+  color: #1a73e8ff;
+  cursor: pointer;
+}
+.customizeIcon:hover{
+  background-color: #4285f40a;
+  cursor: pointer;
+}
